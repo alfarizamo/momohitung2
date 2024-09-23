@@ -51,8 +51,4 @@ else:
     st.write("Satuan yang dimasukkan tidak valid. Gunakan 'C', 'F', 'K', atau 'R'.")
 
 
-st.write(f"{x} {sx_symbol} setara dengan:")
-st.write(f"- {celsius:.2f} °C")
-st.write(f"- {fahrenheit:.2f} °F")
-st.write(f"- {kelvin:.2f} K")
-st.write(f"- {reamur:.2f} °R")
+st.write(f"{x} {sx_symbol} = {y:.2f} {sy_symbol}")
